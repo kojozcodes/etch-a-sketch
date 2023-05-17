@@ -1,16 +1,52 @@
 body {
+    background-color: darkcyan;
+    color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+}
+
+header {
+    background-color: darkslategray;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 .size-btn {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2rem;
+
+  }
+  
+  .size-btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
 
 .container {
     border: 3px solid black;
@@ -19,6 +55,8 @@ body {
     flex-wrap: wrap;
     max-height: 800px;
     max-width: 800px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     -webkit-border-radius: 0.5rem;
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
@@ -37,6 +75,6 @@ body {
 }
 
 .input-num-error {
-    color: red;
+    color: black;
     font-size: 2rem;
 }
