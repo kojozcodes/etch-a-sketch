@@ -1,0 +1,42 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-btn {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 800px;
+    max-width: 800px;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 0.1rem;
+    height: 48px;
+    width: 48px;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+}
+
+.input-num-error {
+    color: red;
+    font-size: 2rem;
+}
